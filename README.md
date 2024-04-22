@@ -1,6 +1,6 @@
-# Introspection Cards
+# Basic NuxtJS Template
 
-A personal journey and mental clarity
+Basic Template to init a NuxtJS 3. Project with modules pre-instaled: Tailwind, Color-Mode, Nuxt-UI, i18n , pinia.
 
 ## Nuxt 3 Minimal Starter
 

@@ -1,1 +1,1 @@
-export { default } from "file:///home/developer/Documents/NuxtProject/Introspection-Cards/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///home/developer/Documents/NuxtProject/Basic-nuxt-theme/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
