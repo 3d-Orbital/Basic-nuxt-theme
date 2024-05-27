@@ -87,16 +87,19 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#icon-collections": [
-        "./icon-collections.mjs"
+        "./icon-collections"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
       "#tailwind-config": [
         "./tailwind.config"
+      ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
       ],
       "vue-i18n": [
         "../node_modules/vue-i18n/dist/vue-i18n"
@@ -124,6 +127,9 @@
       ],
       "#i18n": [
         "../node_modules/@nuxtjs/i18n/dist/runtime/composables/index"
+      ],
+      "pinia": [
+        "../node_modules/pinia/dist/pinia"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -172,6 +178,7 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxtjs/i18n/runtime",
+    "../node_modules/@pinia/nuxt/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
@@ -184,6 +191,7 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxtjs/i18n/runtime/server",
+    "../node_modules/@pinia/nuxt/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
